@@ -1,0 +1,29 @@
+# Operating system / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Git / local workspace metadata
+.idea/
+.vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Backend environment and generated artifacts
+backend/.env
+backend/.venv/
+backend/.uv-cache/
+backend/dist-check/
+backend/notes/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/src/__pycache__/
+backend/src/services/__pycache__/
+backend/src/helloagents_deep_researcher.egg-info/
+
+# Python bytecode
+*.pyc
+*.pyo
