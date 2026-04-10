@@ -60,22 +60,4 @@ Backend configuration lives in `backend/.env`. Common settings include:
 
 See [`backend/.env.example`](backend/.env.example) for the full template.
 
-## Privacy Notes
 
-The following are intentionally kept out of Git:
-
-- API keys and local `.env` files
-- Browser-side local environment overrides
-- Generated notes and research artifacts from a local machine
-- Python virtual environments and package caches
-- Frontend dependency folders and production build output
-
-## Development Notes
-
-- Backend setup details are documented in [`backend/README.md`](backend/README.md).
-- Frontend dependencies are locked with `package-lock.json`.
-- Python dependencies are locked with `uv.lock`.
-
-## License
-
-MIT. See [`LICENSE`](LICENSE).
